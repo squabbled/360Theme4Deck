@@ -1,0 +1,152 @@
+.unreadchatmessagesheadersteamdeck_Header_NotificationUnreadMention_ASion {
+    position: absolute;
+    height: 2px;
+    top: 2px;
+    left: 17px;
+    min-width: 8px;
+    padding: 5px 3px;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: #17ef27;
+    box-shadow: 0 0 8px 1px rgba(218,149,0,.5);
+    border-radius: 2px;
+}
+.gamepadtabbedpage_FixCenterAlignScroll_1CJeU {
+    display: flex;
+    column-gap: 2px;
+    padding: 12px 0px;
+    scroll-padding: 0px 100px;
+}
+.gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt, .gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    -webkit-mask-image: radial-gradient(75% 83% at 50% 18%, #59bf40 0%, #5c6e14 76%, #146e48 100%);
+    -webkit-mask-composite: source-out;
+}
+.gamepadtabbedpage_TabContentsScroll_1X4dt {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 58px;
+    padding-bottom: 40px;
+    padding-left: 2.8vw;
+    padding-right: 2.8vw;
+    scroll-padding-top: 116px;
+    scroll-padding-bottom: 80px;
+    background-image: url("https://www.katsudon.cc/images/xb360/greencropped.png");
+}
+.footer_BasicFooter_3T1iF {
+    min-height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    z-index: 7000;
+    /* background-color: rgba(0,0,0,.5); */
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    /* border-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 25%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, rgba(255, 255, 255, 0) 100%) 1 0 0 0; */
+    border-top: 1px solid;
+    /* backdrop-filter: blur(100px); */
+    background-image: url("https://www.katsudon.cc/images/xb360/bottombar.png");
+}
+.ingame .personanameandstatus_playerName_r62qz.GamepadMode, .GamepadMode .ingame .personanameandstatus_playerName_r62qz {
+    font-family: "Motiva Sans",Helvetica,sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #fff;
+    color: #c2ffb3;
+    font-weight: 400;
+}
+.gamepadhomefriends_FavoriteFriend_3SLpz, .gamepadhomefriends_GoToFriends_MVc_6 {
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+    background-color: #ACB2C924;
+    box-sizing: border-box;
+}
+.appdetailsfriendssection_FriendsSectionSubHeading_30EfX {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+.mainmenu_Menu_23IDi {
+    background-color: #0e141b;
+    height: calc( 100% - var(--basicui-header-height) - 40px );
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 240px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    transition-property: width,transform,background-color;
+    transition-duration: 320ms,300ms,.5s;
+    transition-timing-function: ease-in-out,cubic-bezier(0.16, 0.86, 0.43, 0.99),ease-out;
+    transform: translateX(-240px);
+    background-image: url("https://www.katsudon.cc/images/xb360/menutexture.png");
+}
+.quickaccessmenu_PanelOuterNav_2BB6u {
+    flex-grow: 1;
+    min-height: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    position: relative;
+    max-width: 300px;
+    padding-top: 14px;
+    overflow: hidden;
+    background-image: url("https://www.katsudon.cc/images/xb360/menutexture.png");
+}
+.quickaccessmenu_Tab_1S76C {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 48px;
+    height: 64px;
+    min-height: 48px;
+    scroll-margin: 64px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #59bf40;
+    outline: none;
+    transition-property: transform,background-color;
+    transition-duration: .32s,0s;
+    transition-timing-function: cubic-bezier(0.17, 0.45, 0.14, 0.83);
+    transform-origin: 12% 50%;
+    animation-timing-function: cubic-bezier(0.17, 0.45, 0.14, 0.83);
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    transform: scale(1) rotateX(1deg);
+    transform-origin: 50% 50%;
+    transition: background-color 50ms ease-out;
+}
