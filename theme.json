@@ -1,7 +1,7 @@
 {
   "name": "Xbox 360 Blades UI",
   "author": "squabbled",
-  "version": "v1.0",
+  "version": "v1.1",
   "description": "Theme similar to the Blades Dashboard for 360.",
   "target": "Other",
   "manifest_version": 8,
