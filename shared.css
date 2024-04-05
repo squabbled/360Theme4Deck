@@ -56,13 +56,10 @@
     flex-shrink: 0;
     flex-basis: auto;
     z-index: 7000;
-    /* background-color: rgba(0,0,0,.5); */
     align-items: center;
     display: flex;
     box-sizing: border-box;
-    /* border-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 25%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, rgba(255, 255, 255, 0) 100%) 1 0 0 0; */
     border-top: 1px solid;
-    /* backdrop-filter: blur(100px); */
     background-image: url("https://www.katsudon.cc/images/xb360/bottombar.png");
 }
 .ingame .personanameandstatus_playerName_r62qz.GamepadMode, .GamepadMode .ingame .personanameandstatus_playerName_r62qz {
@@ -112,7 +109,7 @@
     transform: translateX(-240px);
     background-image: url("https://www.katsudon.cc/images/xb360/menutexture.png");
 }
-// Quick Access Menu
+/* Quick Access Menu */
 .quickaccessmenu_PanelOuterNav_2BB6u {
     flex-grow: 1;
     min-height: 0px;
@@ -167,7 +164,7 @@
     justify-content: center;
     align-items: center;
 }
-// text fix for quick settings and the like
+/* text fix for quick settings and the like */
 .quickaccessmenu_Title_34nl5 {
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -194,7 +191,6 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 28px;
-    /* background: #e8f3ff; */
     z-index: 5;
     position: relative;
 }
@@ -231,24 +227,24 @@
     align-items: center;
     cursor: pointer;
 }
-// Friend username and label text colors
+/* Friend username and label text colors */
 .offline .personanameandstatus_richPresenceLabel_1k82N, .offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, .offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, .offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, .offline .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
     color: #000000;
 }
 .offline .personanameandstatus_playerName_r62qz.GamepadMode, .GamepadMode .offline .personanameandstatus_playerName_r62qz {
     color: #000000;
 }
-// Friends playing text
+/* Friends playing text*/
 .gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_FriendsPlaying_15rrZ {
     font-size: 12px;
     color: #000000;
 }
-//in library text
+/*in library text*/
 .gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_InLibrary_ho5Qo {
     font-size: 12px;
     color: #000000;
 }
-// friend feed game names
+/* friend feed game names*/
 .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq .appactivityday_HeadlineGameName_Gy1Y7 {
     color: #000000;
     margin-left: 4px;
